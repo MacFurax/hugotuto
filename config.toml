@@ -19,20 +19,26 @@ title = "Hugo Blog"
     url = "/blog/"
     weight = 2
   [[menu.main]]
+    name = "About"
+    pre = "eye"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
     name = "Tags"
     pre = "tag"
     url = "/tags/"
-    weight = 3
-  [[menu.main]]
-    name = "g"
-    pre = "github"
-    url = "https://github.com/MacFurax"
     weight = 4
   [[menu.main]]
     name = "t"
     pre = "twitter"
-    url = "https://www.twitter.com"
+    url = "https://twitter.com/ConstantDupuis"
     weight = 5
+  [[menu.main]]
+    name = "g"
+    pre = "github"
+    url = "https://github.com/MacFurax"
+    weight = 6
+  
 
 [params]
   homeText = "You just made a Hugo blog from scratch."
